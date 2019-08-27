@@ -6,6 +6,29 @@
     height: 100%;
 }
 
+.jumbotron, .well {
+    background-color: white;
+}
+
+.well {
+    border: none;
+}
+
+.social-media {
+    float: right !important;
+}
+
+@media all and (min-width:960px) {
+    .thumbnail:hover {
+        position:relative;
+        top:-25px;
+        left:-35px;
+        width:500px;
+        height:100%;
+        display:block;
+        z-index:999;
+    }
+}
 
 .fa-box {
     padding: 20px;
@@ -36,11 +59,16 @@
     margin: 5px 2px;
 }
 
-.fa:hover {
+.fa-circle-img {
+    width: 80px;
+    padding-bottom: 20px;
+}
+
+.fa:hover, .fa-circle-img:hover {
     opacity: 0.7;
 }
 
 .fa-instagram {
-    background: #E4405F;
+    background: #CC9797;
     color: white;
 }
